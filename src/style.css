@@ -1,0 +1,40 @@
+:root {
+  --nice-green-color: #679186;
+}
+body {
+  text-align: center;
+  color: #264e70;
+}
+h2 {
+  margin: 50px 0 0 0;
+  font-size: 34px;
+}
+h1 {
+  margin: 0;
+  font-size: 64px;
+  color: var(--nice-green-color);
+}
+h3 {
+  margin: 0;
+  font-size: 24px;
+}
+button {
+  width: 200px;
+  margin: 55px 20px;
+  padding: 20px;
+  border: 1px solid var(--nice-green-color);
+  border-radius: 30px;
+  background-color: #ffebd3;
+  font-size: 20px;
+}
+button:hover {
+  background-color: #ffebeb;
+}
+
+.button-link {
+  color: var(--nice-green-color);
+  text-decoration: none;
+}
+.button-link:visited {
+  color: #264e70;
+}
