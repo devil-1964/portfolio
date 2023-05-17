@@ -2,6 +2,7 @@
   --nice-green-color: #679186;
 }
 body {
+  margin-top: 100px;
   color: #264e70;
   text-align: center;
 }
