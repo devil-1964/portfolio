@@ -21,13 +21,9 @@ h1 {
   flex: 1;
 }
 .about-text {
-  border: 1px solid var(--nice-green-color);
-  background-color: #ffebd3;
-  border-radius: 10px;
-  margin: 10px;
+  margin: 1% 10%;
   padding: 20px;
-  width: 150px;
-  text-align: left;
+  text-align: center;
 }
 footer {
   margin: 5%;
@@ -41,4 +37,7 @@ footer {
 }
 .contact-link:visited {
   color: #264e70;
+}
+.col-md-4 {
+  margin: auto;
 }
