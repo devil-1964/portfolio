@@ -42,3 +42,8 @@ footer {
 .col-md-4 {
   margin: auto;
 }
+@media (max-width: 600px) {
+  .front-end {
+    font-size: 20px;
+  }
+}
