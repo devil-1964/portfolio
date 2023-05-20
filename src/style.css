@@ -31,9 +31,14 @@ h3 {
   border: 1px solid var(--nice-green-color);
   background-color: var(--nice-green-color);
 }
-/* .button-nice:visited {
-  color: #264e70;
-} */
 .col-md-6 {
   margin: auto;
+}
+@media (max-width: 600px) {
+  .front-end {
+    font-size: 20px;
+  }
+  .project-screen {
+    margin: 15px 0;
+  }
 }
