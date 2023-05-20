@@ -31,9 +31,10 @@ h3 {
   border: 1px solid var(--nice-green-color);
   background-color: var(--nice-green-color);
 }
-.col-md-6 {
+.col-sm-6 {
   margin: auto;
 }
+
 @media (max-width: 600px) {
   .front-end {
     font-size: 20px;
