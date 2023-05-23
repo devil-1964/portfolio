@@ -1,23 +1,29 @@
 :root {
   --nice-green-color: #679186;
+  --default-color: #264e70;
 }
 body {
-  margin-top: 100px;
+  color: var(--default-color);
+}
+.headline {
+  margin: 200px 0;
   text-align: center;
-  color: #264e70;
 }
 h2 {
   margin: 50px 0 0 0;
   font-size: 34px;
 }
 h1 {
-  margin: 0;
-  font-size: 64px;
+  margin: 20px;
+  font-size: 96px;
   color: var(--nice-green-color);
 }
 h3 {
-  margin: 0 0 15px 0;
+  margin: 15px;
   font-size: 24px;
+}
+.project-description {
+  text-align: justify;
 }
 .button-nice {
   width: 170px;
@@ -31,10 +37,16 @@ h3 {
   border: 1px solid var(--nice-green-color);
   background-color: var(--nice-green-color);
 }
-.col-sm-6 {
-  margin: auto;
+.row {
+  margin: 60px 5px;
 }
-
+.col-md {
+  margin: auto;
+  text-align: center;
+}
+.container h3 {
+  font-size: 42px;
+}
 @media (max-width: 600px) {
   .front-end {
     font-size: 20px;
