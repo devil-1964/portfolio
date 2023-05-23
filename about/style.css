@@ -2,32 +2,28 @@
   --nice-green-color: #679186;
 }
 body {
-  margin-top: 100px;
   color: #264e70;
-  text-align: center;
 }
-h2 {
-  margin: 20px;
+.about {
+  margin: 50px 60px;
+  padding: 10px;
+}
+.about h2 {
   font-size: 24px;
 }
-h1 {
-  margin: 0;
+.about h1 {
   font-size: 64px;
   color: var(--nice-green-color);
 }
-.about-section {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  flex: 1;
-}
-.about-text {
-  margin: 1% 5%;
-  padding: 10px;
+.about p {
   text-align: justify;
+}
+.about-image {
+  margin: auto;
 }
 footer {
   margin: 5%;
+  text-align: center;
 }
 .contact-me {
   font-size: 44px;
@@ -42,8 +38,24 @@ footer {
 .col-md-4 {
   margin: auto;
 }
-@media (max-width: 600px) {
-  .front-end {
-    font-size: 20px;
+div {
+  margin: auto;
+}
+.button-nice {
+  text-align: center;
+  width: 170px;
+  margin: 30px;
+  padding: 10px;
+  border: 1px solid var(--nice-green-color);
+  border-radius: 20px;
+  color: var(--nice-green-color);
+}
+.button-nice:hover {
+  border: 1px solid var(--nice-green-color);
+  background-color: var(--nice-green-color);
+}
+@media (max-width: 700px) {
+  .about {
+    margin: 10px 10px;
   }
 }
