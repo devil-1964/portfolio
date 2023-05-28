@@ -149,6 +149,7 @@ footer a:hover {
   padding: 0;
 }
 .about,
+.contact,
 .work-experience {
   padding: 60px 10px;
 }
@@ -158,6 +159,12 @@ footer a:hover {
 .work-experience-col {
   text-align: center;
   margin: auto;
+}
+.contact a {
+  padding:35px 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--nice-pink-color);
 }
 @media (max-width: 600px) {
 }
