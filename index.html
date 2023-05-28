@@ -15,6 +15,10 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/a35d209afc.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,63 +28,25 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-sm navbar-light fixed-top"
-      style="background-color: #ebf6f2"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Sue Brechko 👩🏻‍💻</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          style="color: #264e70"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="#"
-                title="home-page front-end developer"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="about/about.html"
-                title="about front-end developer"
-                >About me</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                title="projects of front-end developer"
-                >Projects</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="about/about.html#contact-me"
-                title="contact front-end developer"
-                >Contact me</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <p><a href="index.html">S</a></p>
+        <ul>
+          <li class="active">
+            <a href="#" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="about.html" title="Page about Patricia">About</a>
+          </li>
+          <li>
+            <a href="work.html" title="Project that Patricia created">Work</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact Patricia">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container">
       <div class="heading">
         <div class="d-flex justify-content-around align-items-center">
@@ -190,6 +156,56 @@
           </div>
         </div>
       </div>
+      <hr />
+      <footer>
+        <div class="d-flex justify-content-end footer-contact">
+          <a href="mailto:iamsusanna.b@gmail.com" class="email" title="Email">
+            iamsusanna.b@gmail.com</a
+          >
+          <a
+            href="https://github.com/shoproizoshlo/"
+            target="_blank"
+            title="github page - Susanna"
+          >
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/susunny/"
+            target="_blank"
+            title="See what Susanna writes on linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </footer>
+      <nav class="d-flex justify-content-between">
+        <ul>
+          <li class="active">
+            <a href="#" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="about.html" title="Page about Patricia">About</a>
+          </li>
+          <li>
+            <a href="work.html" title="Project that Patricia created">Work</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact Patricia">Contact</a>
+          </li>
+        </ul>
+        <div class="author">
+          <p>
+            Designed by Pavan MG. Built by Sue Brechko. See you on
+            <a
+              href="https://github.com/shoproizoshlo/portfolio"
+              target="_blank"
+              title="github page - Susanna"
+              class="github-link"
+              >GitHub</a
+            >
+          </p>
+        </div>
+      </nav>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
