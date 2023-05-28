@@ -29,9 +29,9 @@ h2 {
   line-height: 60px;
 }
 h3 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 48px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 26px;
 }
 p {
   font-weight: 300;
@@ -81,10 +81,16 @@ nav li.active a {
   border: 8px solid var(--nice-pink-color);
   border-radius: 230px;
 }
+.stack {
+  margin-bottom: 200px;
+}
 .work-section h2,
 .work-section p {
   margin: 49px;
   text-align: center;
+}
+.work-section-brands .fa-brands {
+  font-size: 112px;
 }
 .project-description,
 .project-screen {
@@ -115,7 +121,6 @@ footer p {
   font-size: 18px;
   line-height: 27px;
 }
-
 footer a {
   text-decoration: none;
   color: var(--default-color);
@@ -161,10 +166,16 @@ footer a:hover {
   margin: auto;
 }
 .contact a {
-  padding:35px 0;
+  padding: 35px 0;
   font-size: 24px;
   font-weight: 600;
   color: var(--nice-pink-color);
 }
 @media (max-width: 600px) {
+}
+
+.card-body {
+  color: var(--default-color);
+  font-family: var(--default-font-family);
+  text-align: center;
 }
