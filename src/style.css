@@ -72,10 +72,6 @@ nav li.active a {
 .heading {
   padding: 130px 10px;
 }
-.about,
-.work-experience {
-  padding: 60px 10px;
-}
 .heading span {
   color: var(--nice-pink-color);
 }
@@ -151,6 +147,10 @@ footer a:hover {
   text-align: center;
   margin: 0;
   padding: 0;
+}
+.about,
+.work-experience {
+  padding: 60px 10px;
 }
 .about-col {
   margin: auto;
