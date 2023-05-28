@@ -1,57 +1,77 @@
 :root {
   --nice-green-color: #679186;
-  --default-color: #264e70;
+  --nice-pink-color: rgb(252, 115, 156);
+  --default-color: #42446e;
+  --default-font-family: "Poppins", sans-serif;
+  --linear-gradient-pink: linear-gradient(
+    90deg,
+    rgb(252, 115, 156) 0%,
+    rgb(139, 102, 241) 100%
+  );
+  --linear-gradient-purple: linear-gradient(
+    90deg,
+    rgb(252, 115, 156) 0%,
+    rgb(139, 102, 241) 56%
+  );
 }
 body {
   color: var(--default-color);
-}
-.headline {
-  margin: 200px 0;
-  text-align: center;
-}
-h2 {
-  margin: 50px 0 0 0;
-  font-size: 34px;
+  font-family: var(--default-font-family);
 }
 h1 {
-  margin: 20px;
-  font-size: 96px;
-  color: var(--nice-green-color);
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
 }
-h3 {
-  margin: 15px;
-  font-size: 24px;
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
 }
-.project-description {
+p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+.heading {
+  padding: 200px 10px;
+}
+.heading span {
+  color: var(--nice-pink-color);
+}
+.heading img {
+  width: 349px;
+  border: 8px solid var(--nice-pink-color);
+  border-radius: 230px;
+}
+.work-section h2,
+.work-section p {
+  margin: 49px;
+  text-align: center;
+}
+.project-description,
+.project-screen {
+  margin: auto;
+  text-align: center;
+}
+.project-text {
   text-align: justify;
 }
 .button-nice {
   width: 170px;
   margin: 10px;
   padding: 10px;
-  border: 1px solid var(--nice-green-color);
+  border: 1px solid rgb(139, 102, 241);
   border-radius: 20px;
-  color: var(--nice-green-color);
+  background: var(--linear-gradient-pink);
+  color: white;
+  transition: all 100ms ease-in-out;
 }
 .button-nice:hover {
-  border: 1px solid var(--nice-green-color);
-  background-color: var(--nice-green-color);
+  background: var(--linear-gradient-purple);
 }
 .row {
   margin: 60px 5px;
 }
-.col-md {
-  margin: auto;
-  text-align: center;
-}
-.container h3 {
-  font-size: 42px;
-}
 @media (max-width: 600px) {
-  .front-end {
-    font-size: 20px;
-  }
-  .project-screen {
-    margin: 15px 0;
-  }
 }
