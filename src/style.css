@@ -56,7 +56,6 @@ nav li {
   display: inline;
   text-decoration: none;
   list-style: none;
-  /* font-family: var(--default-font-family); */
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -84,18 +83,26 @@ nav li.active a {
 .stack {
   margin-bottom: 200px;
 }
+.card-body {
+  color: var(--default-color);
+  font-family: var(--default-font-family);
+  text-align: center;
+}
 .work-section h2,
 .work-section p {
-  margin: 49px;
+  margin: 45px;
   text-align: center;
 }
 .work-section-brands .fa-brands {
   font-size: 112px;
 }
-.project-description,
 .project-screen {
   margin: auto;
-  text-align: center;
+  padding: 10px;
+}
+.project-description {
+  margin: auto;
+  padding: 40px;
 }
 .project-text {
   text-align: justify;
@@ -115,6 +122,10 @@ nav li.active a {
 }
 .work-row {
   margin: 60px 5px;
+}
+.footer-contact {
+  display: flex;
+  justify-content: end;
 }
 footer p {
   color: var(--default-color-light);
@@ -156,10 +167,11 @@ footer a:hover {
 .about,
 .contact,
 .work-experience {
-  padding: 60px 10px;
+  padding: 30px 1px;
 }
 .about-col {
   margin: auto;
+  padding: 0 70px;
 }
 .work-experience-col {
   text-align: center;
@@ -171,11 +183,125 @@ footer a:hover {
   font-weight: 600;
   color: var(--nice-pink-color);
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+  .work-section-brands .fa-brands {
+    font-size: 64px;
+  }
+  .about-col {
+    margin: auto;
+    text-align: center;
+  }
+  .project-description {
+    margin: auto;
+    padding: 10px;
+  }
 }
-
-.card-body {
-  color: var(--default-color);
-  font-family: var(--default-font-family);
-  text-align: center;
+@media (max-width: 600px) {
+  h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .heading {
+    padding: 50px 10px;
+    text-align: center;
+  }
+  .heading img,
+  .about img {
+    width: 249px;
+    margin: 50px;
+  }
+  .about,
+  .contact,
+  .work-experience {
+    padding: 10px 10px;
+  }
+  .work-section-brands .fa-brands {
+    font-size: 40px;
+  }
+  .footer-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-col {
+    margin: auto;
+    padding: 10px;
+  }
+  .project-description {
+    margin: auto;
+    padding: 10px;
+  }
+}
+@media (max-width: 300px) {
+  h1 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 26px;
+  }
+  nav li {
+    font-size: 11px;
+  }
+  .heading {
+    padding: 50px 10px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .heading img,
+  .about img {
+    margin: auto;
+    width: 190px;
+    border: 5px solid var(--nice-pink-color);
+  }
+  .about,
+  .contact,
+  .work-experience {
+    padding: 10px 10px;
+  }
+  .work-section h2,
+  .work-section p {
+    margin: 25px;
+  }
+  .work-section-brands .fa-brands {
+    font-size: 30px;
+  }
+  .footer-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-col {
+    margin: auto;
+    padding: 10px;
+  }
+  .project-description {
+    margin: auto;
+    padding: 10px;
+  }
+  .footer-contact .email {
+    font-size: 15px;
+  }
+  .about-col {
+    margin-bottom: 20px;
+  }
+  .project-description {
+    padding: 0;
+    margin: 0;
+  }
+  .contact a {
+    font-size: 15px;
+  }
 }
