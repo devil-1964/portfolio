@@ -111,20 +111,23 @@ nav li.active a {
   width: 170px;
   margin: 10px;
   padding: 10px;
-  border: 1px solid rgb(139, 102, 241);
+  border: 1px solid var(--default-color);
   border-radius: 20px;
-  background: var(--linear-gradient-pink);
-  color: white;
+  background: white;
+  color: var(--nice-pink-color);
   transition: all 100ms ease-in-out;
 }
 .button-nice:hover {
-  background: var(--linear-gradient-purple);
+  background: var(--nice-pink-color);
 }
 .work-row {
   margin: 60px 5px;
 }
 .project-description .button-nice {
   margin: auto;
+}
+.card-text {
+  height: 200px;
 }
 .footer-contact {
   display: flex;
@@ -198,6 +201,9 @@ footer a:hover {
     margin: auto;
     padding: 10px;
   }
+  .card-text {
+    height: 250px;
+  }
 }
 @media (max-width: 600px) {
   h1 {
@@ -227,6 +233,9 @@ footer a:hover {
   .work-section-brands .fa-brands {
     font-size: 40px;
   }
+  .brands {
+    margin: 30px;
+  }
   .footer-contact {
     flex-direction: column;
     align-items: center;
@@ -238,6 +247,9 @@ footer a:hover {
   .project-description {
     margin: auto;
     padding: 10px;
+  }
+  .card-text {
+    height: 270px;
   }
 }
 @media (max-width: 300px) {
@@ -282,6 +294,9 @@ footer a:hover {
   .work-section-brands .fa-brands {
     font-size: 30px;
   }
+  .brands {
+    margin: 25px;
+  }
   .footer-contact {
     flex-direction: column;
     align-items: center;
@@ -293,6 +308,10 @@ footer a:hover {
   .project-description {
     margin: auto;
     padding: 10px;
+  }
+  .card-text {
+    display: none;
+    visibility: hidden;
   }
   .footer-contact .email {
     font-size: 15px;
