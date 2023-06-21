@@ -157,6 +157,12 @@ footer a:hover {
 .fa-brands:hover {
   color: var(--nice-pink-color);
 }
+.icon-project {
+  font-size: 35px;
+}
+.fa-plus {
+  font-size: 25px;
+}
 .author {
   margin: 10px;
 }
